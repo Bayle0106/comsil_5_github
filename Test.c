@@ -11,7 +11,7 @@ void Print_Line( char *line, int *Count, int *B_Flag ) {
 			* "N_Blanks != 0" means that L2 is written at the next line.
 			*/
 			if ( N_Blanks != 0 ) {
-				printf("Something Wrong!\n");
+				printf("Something Wrong!\n");   
 				exit(-1);
 			}
 
