@@ -4,7 +4,7 @@ using namespace std;
 
 RangeArray::RangeArray(int i, int j) :Array(j - i + 1)
 {
-	low = i;
+	low = i; // hw5_2 추가내용입니다.
 	high = j;
 }
 
